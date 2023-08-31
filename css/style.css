@@ -1,0 +1,42 @@
+body {
+    background-color: #FFF2FF;
+}
+
+.info {
+    background-color: #E2C1DE;
+    padding: 10px;
+    block-size: 50%;
+}
+
+
+button {
+    background-color: #B094B5;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 12px;
+    transition-duration: 0.1s;
+}
+
+button:hover {
+    border: 3px solid #5E495D;
+}
+
+/* .socials {
+    background-color: #B094B5;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 20px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 12px;
+    transition-duration: 0.1s;
+} */
+
+.fa-caret-down {
+    color: #5E495D;
+}
