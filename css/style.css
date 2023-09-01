@@ -5,13 +5,14 @@ body {
 .info {
     background-color: #E2C1DE;
     padding: 10px;
-    block-size: 50%;
+    block-size: 4rem;
 }
-
+/* knapparna ska sitta i mitten av headern */
 
 button {
     background-color: #B094B5;
     border: none;
+    height: 40px;
     padding: 5px 10px;
     margin-left: 20px;
     font-family: Copperplate, Papyrus, fantasy;
@@ -25,18 +26,42 @@ button:hover {
     border: 3px solid #5E495D;
 }
 
-/* .socials {
-    background-color: #B094B5;
-    border: none;
-    padding: 5px 10px;
-    margin-left: 20px;
+.fa-caret-down {
+    color: #5E495D;
+}
+
+.selfie {
+    height: auto;
+    width: 20%;
+    margin: 4rem;
+}
+
+.about-me {
+    display: inline-block;
+    /* texten ska sättats så den är i samma höjd som bilden ungefär */
+}
+
+.welcome {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.name {
     font-family: Copperplate, Papyrus, fantasy;
     font-size: larger;
     font-weight: bold;
-    border-radius: 12px;
-    transition-duration: 0.1s;
-} */
+}
 
-.fa-caret-down {
-    color: #5E495D;
+.age {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.fun-info {
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: larger;
+    font-weight: bold;
 }
